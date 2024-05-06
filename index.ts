@@ -516,7 +516,7 @@ interface Cylinder {
 interface Ellipse {
     shows?: IBoolean;
     semiMajorAxis?: IDouble;
-    semiMinorAxos?: IDouble;
+    semiMinorAxis?: IDouble;
     height?: IDouble;
     heightReference?: IHeightReference;
     extrudedHeight?: IDouble;
@@ -631,7 +631,7 @@ interface Polygon {
     arcType?: IArcType;
     height?: IDouble;
     heightReference?: IHeightReference;
-    extrudedHeight: IDouble;
+    extrudedHeight?: IDouble;
     extrudedHeightReference?: IHeightReference;
     stRotation?: IDouble;
     granularity?: IDouble;
